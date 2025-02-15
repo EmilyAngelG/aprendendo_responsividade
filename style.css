@@ -1,0 +1,65 @@
+.nav-button{
+    border-style: solid; 
+    border-color:rgb(226, 223, 223)
+}
+
+.col-md{
+    border-style: solid;
+    border-color: red;
+}
+
+.row {
+    border-style: solid;
+    border-color: blue;
+}
+
+.nav.flex-column{
+    border-style: solid;
+    border-color: blue;
+}
+
+.row-nav{
+    display: none;
+}
+
+.material-icons.md-48 { 
+    font-size: 48px; 
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+.nav-button{
+    display: none;
+}
+.collapse{
+    display: none;
+}
+.row-nav{
+    display: block;
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
