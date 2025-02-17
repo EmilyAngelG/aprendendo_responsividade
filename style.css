@@ -1,6 +1,16 @@
-.nav-button{
-    border-style: solid; 
-    border-color:rgb(226, 223, 223)
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section1 nav{
+    height: 10vh;
+    padding: 3vh;
+}
+
+.carousel-item img{
+    height: 100vh;
 }
 
 .col-md{
@@ -11,15 +21,12 @@
 .row {
     border-style: solid;
     border-color: blue;
+    margin: 0;
+    padding: 1rem;
 }
 
-.nav.flex-column{
-    border-style: solid;
-    border-color: blue;
-}
-
-.row-nav{
-    display: none;
+.row img{
+    width: 100%;
 }
 
 .material-icons.md-48 { 
@@ -31,14 +38,7 @@
 }
 
 @media (min-width: 768px) {
-.nav-button{
-    display: none;
-}
-.collapse{
-    display: none;
-}
-.row-nav{
-    display: block;
+
 }
 
 @media (min-width: 992px) {
