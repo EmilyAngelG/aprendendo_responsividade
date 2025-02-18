@@ -4,9 +4,14 @@
     box-sizing: border-box;
 }
 
+.material-icons.md-48 { 
+    font-size: 48px; 
+}
+
 .section1 nav{
     height: 10vh;
     padding: 3vh;
+    background-color: white;
 }
 
 .carousel-item img{
@@ -22,15 +27,17 @@
     border-style: solid;
     border-color: blue;
     margin: 0;
-    padding: 1rem;
+    padding: 2rem;
+    justify-content: center;
 }
 
 .row img{
     width: 100%;
 }
 
-.material-icons.md-48 { 
-    font-size: 48px; 
+.section2 .card{
+    width: 100% !important;
+    margin: 1rem 0 1rem 0;
 }
 
 @media (min-width: 576px) {
@@ -38,11 +45,17 @@
 }
 
 @media (min-width: 768px) {
-
+    .section2 .card{
+        width: 19rem !important;
+        margin: 1rem;
+    }
 }
 
 @media (min-width: 992px) {
-
+    .section2 .card{
+        width: 17rem !important;
+        margin: 1rem;
+    }
 }
 
 @media (min-width: 1200px) {
